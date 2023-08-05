@@ -6,7 +6,8 @@ html {
 }
 body{
   background-color: #322653;
-  font-family: cursive;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 h1 {
@@ -51,7 +52,7 @@ p {
   margin: 0;
   padding: 20px;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 500;
   color: #00204a;
 }
 
@@ -90,13 +91,14 @@ input[type="text"] {
   border: none;
   background: transparent;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   width: 313px;
 }
 
 input[type="text"]:focus {
   outline: none;
   box-shadow: inset 0 -3px 0 0 #A683E3;
+  
 }
 
 ::placeholder {
